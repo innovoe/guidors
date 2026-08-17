@@ -1,0 +1,46 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cursor/
+*.swp
+*~
+
+# Environment
+.env
+.env.*
+
+# CodeIgniter runtime (keep the placeholder files)
+application/cache/*
+!application/cache/index.html
+application/logs/*
+!application/logs/.gitkeep
+application/session/*
+!application/session/index.html
+
+# User-generated uploads (keep folder placeholders)
+uploads/big/*
+uploads/medium/*
+uploads/thumbnail/*
+uploads/files/*
+!uploads/**/.gitkeep
+!uploads/**/index.html
+
+# Local / generated
+temp/
+log.txt
+*.log
+vendor/mpdf/mpdf/tmp/mpdf/
+
+# ThemeForest docs site — not part of the live app
+docs/
+
+# Local Docker stack — not deployed
+docker/
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore
+
+# Composer / OS junk that should not ship
+composer.phar
